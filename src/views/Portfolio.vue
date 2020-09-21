@@ -72,7 +72,7 @@
                 - Netlify - Namecheap - Git - npm<br>
               </p>
               <p>
-                <a target="_blank" href="https://baksanou.com">https://baksanou.com</a>
+                <a target="_blank" href="http://baksanou.com">https://baksanou.com</a>
               </p>
             </div>
           </v-card>
