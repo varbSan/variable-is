@@ -1,5 +1,5 @@
 <template>
-  <v-container class="text-center" height="auto" align="center">
+  <v-container class="text-center">
     
     <v-row>
       <v-col 
@@ -35,8 +35,7 @@
         class="mb-5" 
         cols="12"
       >
-          <v-btn class="white mr-2" route to="/portfolio">View My Work</v-btn>
-          <v-btn outlined class="white--text ml-2" route to="/contact">Contact</v-btn>
+          <v-btn class="white" route to="/portfolio">View My Work</v-btn>
       </v-col>
     </v-row>
 
@@ -66,28 +65,7 @@
     name: 'HelloWorld',
 
     data: () => ({
-      importantLinks: [
-        {
-          text: 'Documentation',
-          href: 'https://vuetifyjs.com',
-        },
-        {
-          text: 'Chat',
-          href: 'https://community.vuetifyjs.com',
-        },
-        {
-          text: 'Made with Vuetify',
-          href: 'https://madewithvuejs.com/vuetify',
-        },
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/vuetifyjs',
-        },
-        {
-          text: 'Articles',
-          href: 'https://medium.com/vuetify',
-        },
-      ],
+      //
     }),
   }
 </script>
