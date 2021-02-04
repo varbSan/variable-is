@@ -17,16 +17,30 @@
       </v-col>
     </v-row>
 
-    <v-row>
+    <v-row justify="center">
       <v-col 
         class="mb-4"
         cols="12"
       >
-        <h1 class="display-1 font-weight-bold mb-3">
+        <h2 class="white--text mb-3">
           <span>Hi</span><br>
-          <span>I'm Bak</span><br>
-          <span class="display-2 font-weight-bold mb-3">I make web applications</span>
-        </h1>
+          <span>We are</span>
+        </h2>
+
+          <v-btn color="rgba(0,0,0,0)" class="pa-0" text x-large>
+            <v-img  :src="require('@/assets/logo.png')" width="5rem"></v-img>
+            <h1 class="display-2">
+              <span class="font-weight-light white--text">ariable</span>
+            </h1>
+          </v-btn>
+<p>
+</p>
+        <h2 class="white--text mb-3">
+          <span>We make software.</span>
+        </h2>
+            
+
+          <!-- <span class="display-2 font-weight-bold mb-3">ariable software</span> -->
       </v-col>
     </v-row>
 
@@ -35,7 +49,7 @@
         class="mb-5" 
         cols="12"
       >
-          <v-btn class="white" route to="/portfolio">View My Work</v-btn>
+          <v-btn class="white" route to="/software">View our Apps</v-btn>
       </v-col>
     </v-row>
 

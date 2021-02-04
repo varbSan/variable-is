@@ -5,13 +5,14 @@
       color="rgba(0,0,0,0)"
       dark
     >
+    <router-link to="/">
       <v-btn 
         small 
-        text
-        href="/">
-        <span class="font-weight-light">Bak</span>
-        <span class="font-weight-bold">Sanou</span>
+        text>
+        <v-img  :src="require('@/assets/logo.png')" max-width="20"></v-img>
+        <span class="font-weight-light">ariable</span>
       </v-btn>
+    </router-link>
 
       <v-spacer></v-spacer>
 
@@ -39,3 +40,10 @@
     }
   }
 </script>
+
+<style lang="scss" scoped>
+  
+  a { // avoid underline for router-link
+    text-decoration: none;
+  }
+</style>
