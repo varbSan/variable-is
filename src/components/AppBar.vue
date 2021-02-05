@@ -9,8 +9,8 @@
       <v-btn 
         small 
         text>
-        <v-img  :src="require('@/assets/logo.png')" max-width="20"></v-img>
-        <span class="font-weight-light">ariable</span>
+        <span class="font-weight-bold">Var</span>
+        <span class="font-weight-light">iable</span>
       </v-btn>
     </router-link>
 

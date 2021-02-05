@@ -6,7 +6,16 @@
           cols="12" 
           sm="5"
         >
-          <h1 class="text-center white--text">Over[v]iew</h1>
+        <v-row justify="center">
+          <h1>
+            <v-btn text class="white--text x-large" route to="/overview">
+              <span class="display-1">Over</span>
+              <v-img  :src="require('@/assets/logo.png')" width="3rem"></v-img>
+              <span class="display-1">iew</span>
+            </v-btn>
+          </h1>
+        </v-row>
+        
 
           <v-card dark color="rgba(0, 0, 0, 0.7)" flat>
             <router-link to="/overview">
@@ -22,7 +31,7 @@
               <p class="text-center">
                 <v-btn class="white black--text mx-2" x-small href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl">Install</v-btn>
                 <router-link route to="/overview">
-                  <v-btn class="white black--text mx-2" x-small> More Info</v-btn>
+                  <v-btn class="white black--text mx-2" x-small>More Info</v-btn>
                 </router-link>
                 
               </p>
@@ -35,7 +44,13 @@
           cols="12" 
           sm="5"
         >
-          <h1 class="text-center white--text">Citizen Cult</h1>
+        <v-row justify="center">
+          <h1>
+            <v-btn text class="white--text x-large" target="_blank" href="http://citizencult.com">
+              <span class="display-1">Citizen Cult</span>   
+            </v-btn>
+          </h1>
+        </v-row>
 
           <v-card dark color="rgba(0, 0, 0, 0.7)" flat>
             <v-img :src="require('@/assets/ss_citizen_cult.png')">
@@ -49,7 +64,7 @@
                 Test your knowledge through the 30 most epic quotes the cinema has ever seen.
               </p>
               <p class="text-center">
-                <v-btn class="white black--text mx-2" x-small href="http://citizencult.com">Play</v-btn>
+                <v-btn class="white black--text mx-2" x-small target="_blank" href="http://citizencult.com">Play</v-btn>
               </p>
             </div>
           </v-card>

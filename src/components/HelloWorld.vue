@@ -22,21 +22,21 @@
         class="mb-4"
         cols="12"
       >
-        <h2 class="white--text mb-3">
+        <h2 class="font-weight-light white--text mb-3">
           <span>Hi</span><br>
           <span>We are</span>
         </h2>
 
-          <v-btn color="rgba(0,0,0,0)" class="pa-0" text x-large>
-            <v-img  :src="require('@/assets/logo.png')" width="5rem"></v-img>
+          <v-btn class="pa-0" text x-large>
             <h1 class="display-2">
-              <span class="font-weight-light white--text">ariable</span>
+              <span class="font-weight-bold white--text">Var</span>
+              <span class="font-weight-light white--text">iable</span>
             </h1>
           </v-btn>
 <p>
 </p>
         <h2 class="white--text mb-3">
-          <span>We make software.</span>
+          <span>We make software</span>
         </h2>
             
 

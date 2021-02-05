@@ -6,7 +6,15 @@
           cols="12" 
           sm="8"
         >
-          <h1 class="text-center white--text">Over[v]iew</h1>
+        <v-row justify="center">
+          <h1>
+            <v-btn text class="white--text x-large">
+              <span class="display-1">Over</span>
+              <v-img  :src="require('@/assets/logo.png')" width="3rem"></v-img>
+              <span class="display-1">iew</span>
+            </v-btn>
+          </h1>
+        </v-row>
 
           <v-card dark color="rgba(0, 0, 0, 0.7)" flat>
             <v-img :src="require('@/assets/ss_overview.png')">
@@ -24,15 +32,18 @@
                 Keep track of them with statistics.<br>
               </p>
               <p class="text-center">
-                <v-btn class="white black--text mx-2" x-small href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl">Install</v-btn>
+                <v-btn class="white black--text mx-2" x-small target="_blank" href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl">Install</v-btn>
                 <v-btn class="white black--text mx-2" x-small route to="/overview/privacypolicy">Privacy Policy</v-btn>
               </p>
               
             </div>
           </v-card>
         </v-col>
+        
       </v-row>
 
     </v-container>
   </div>
 </template>
+
+
