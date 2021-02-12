@@ -24,20 +24,17 @@
       >
         <h2 class="font-weight-light white--text mb-3">
           <span>Hi</span><br>
-          <span>We are</span>
+          <span>We make</span>
         </h2>
 
-          <v-btn class="pa-0" text x-large>
-            <h1 class="display-2">
-              <span class="font-weight-bold white--text">Var</span>
-              <span class="font-weight-light white--text">iable</span>
+            <h1 class="display-3 font-weight-bold white--text">
+              <span>Variable software</span>
             </h1>
-          </v-btn>
-<p>
-</p>
+        <!-- <p>
+        </p>
         <h2 class="white--text mb-3">
           <span>We make software</span>
-        </h2>
+        </h2> -->
             
 
           <!-- <span class="display-2 font-weight-bold mb-3">ariable software</span> -->

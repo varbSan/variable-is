@@ -8,9 +8,10 @@
     <router-link to="/">
       <v-btn 
         small 
-        text>
-        <span class="font-weight-bold">Var</span>
-        <span class="font-weight-light">iable</span>
+        text
+        class="text-none font-weight-light">
+        <v-img :src="require('@/assets/VariableLogo.svg')" width="1.5rem" class="mr-2"></v-img>
+        <span>Variable</span>
       </v-btn>
     </router-link>
 
@@ -19,7 +20,7 @@
         <v-btn 
           small
           text
-          class="white--text text-none font-weight-light"
+          class="text-none font-weight-light"
           target="_blank" 
           href="https://www.linkedin.com/in/bak-sanou-61027b66/">
           Linked

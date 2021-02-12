@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import OVPrivacyPolicy from '../views/OVPrivacyPolicy.vue'
 
 Vue.use(VueRouter)
 
@@ -18,8 +17,9 @@ const routes = [
   },
   {
     path: '/overview/privacypolicy',
-    name: 'OVPrivacyPolicy',
-    component: OVPrivacyPolicy
+    name: 'OverviewPrivacyPolicy',
+    component: () => import(/* webpackChunkName: "about" */ '../views/OverviewPrivacyPolicy.vue')
+
   },
   {
     path: '/software',
@@ -32,7 +32,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode:'history'
 })
 
 export default router

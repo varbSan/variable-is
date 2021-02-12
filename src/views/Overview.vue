@@ -8,9 +8,9 @@
         >
         <v-row justify="center">
           <h1>
-            <v-btn text class="white--text x-large">
+            <v-btn text class="white--text x-large text-none">
               <span class="display-1">Over</span>
-              <v-img  :src="require('@/assets/logo.png')" width="3rem"></v-img>
+              <v-img  :src="require('@/assets/logo.png')" width="2.5rem"></v-img>
               <span class="display-1">iew</span>
             </v-btn>
           </h1>

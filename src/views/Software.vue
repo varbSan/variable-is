@@ -8,9 +8,9 @@
         >
         <v-row justify="center">
           <h1>
-            <v-btn text class="white--text x-large" route to="/overview">
+            <v-btn text class="white--text x-large text-none" route to="/overview">
               <span class="display-1">Over</span>
-              <v-img  :src="require('@/assets/logo.png')" width="3rem"></v-img>
+              <v-img  :src="require('@/assets/logo.png')" width="2.5rem"></v-img>
               <span class="display-1">iew</span>
             </v-btn>
           </h1>
@@ -29,8 +29,8 @@
               <p>Make your new tab page display your goals — along with your Google Calendar events and tasks.<br>
               </p>
               <p class="text-center">
-                <v-btn class="white black--text mx-2" x-small href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl">Install</v-btn>
-                <router-link route to="/overview">
+                <v-btn class="white black--text mx-2" x-small target="_blank" href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl">Install</v-btn>
+                <router-link to="/overview">
                   <v-btn class="white black--text mx-2" x-small>More Info</v-btn>
                 </router-link>
                 
@@ -46,7 +46,7 @@
         >
         <v-row justify="center">
           <h1>
-            <v-btn text class="white--text x-large" target="_blank" href="http://citizencult.com">
+            <v-btn text class="white--text x-large text-none" target="_blank" href="http://citizencult.com">
               <span class="display-1">Citizen Cult</span>   
             </v-btn>
           </h1>
