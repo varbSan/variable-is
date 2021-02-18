@@ -3,7 +3,7 @@
     <v-card class="ma-5 pa-5">
 
     <h1>Over[v]iew Privacy Policy</h1>
-    <p>Last updated: Ferbruary 5, 2020</p>
+    <p>Last updated: Ferbruary 18, 2021</p>
     <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
     <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
     <h1>Interpretation and Definitions</h1>
@@ -166,7 +166,8 @@
     <h1>Contact Us</h1>
     <p>If you have any questions about this Privacy Policy, You can contact us:</p>
     <ul>
-    <li>By visiting this page on our website: <a href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl" rel="external nofollow noopener" target="_blank">https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl</a></li>
+    <li>By visiting this <a href="https://www.linkedin.com/in/bak-sanou-61027b66/" rel="external nofollow noopener" target="_blank">LinkedIn page</a></li>
+    <li>By emailing us to var.bsan@gmail.com</li>
     </ul>
 
     </v-card>
