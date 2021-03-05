@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "variable-is",
     "public": "dist",
     "ignore": [
       "firebase.json",
