@@ -46,7 +46,7 @@
         class="mb-5" 
         cols="12"
       >
-          <v-btn class="white" route to="/software">View our Apps</v-btn>
+          <v-btn @click="logEvent()" class="white" route to="/software">View our Apps</v-btn>
       </v-col>
     </v-row>
 
@@ -78,5 +78,17 @@
     data: () => ({
       //
     }),
+
+    methods: {
+      logEvent() {
+        this.$analytics.logEvent("got a click!")
+        console.log('fix analytics logEvent')
+      }
+    },
+
+    mounted() {
+      this.$analytics.logEvent("got a visit!")
+      console.log('fix analytics logEvent')
+    }
   }
 </script>

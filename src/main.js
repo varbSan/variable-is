@@ -22,9 +22,11 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig)
 firebase.analytics()
 
-firebase.analytics().logEvent('notification_received')
-
 Vue.config.productionTip = false
+
+// alias
+Vue.prototype.$analytics = firebase.analytics();
+
 
 new Vue({
   router,
