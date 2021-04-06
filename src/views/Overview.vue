@@ -22,7 +22,7 @@
 
             <div class="pa-5">
               <h3 class="text-center">
-                <strong>A browser extension to set goals</strong>
+                <strong>A Chrome extension to set goals</strong>
               </h3>
               <p>
                 Install via the <a href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl">Google Chrome Web Store</a>.<br>
