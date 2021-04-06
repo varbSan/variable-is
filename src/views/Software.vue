@@ -24,7 +24,7 @@
 
             <div class="pa-5">
               <h3 class="text-center">
-                <strong>A browser extension to set goals</strong>
+                <strong>A Chrome extension to set goals</strong>
               </h3>
               <p>Make your new tab page display your goals — along with your Google Calendar events and tasks.<br>
               </p>
