@@ -24,7 +24,7 @@
       >
         <h2 class="font-weight-light white--text mb-3">
           <span>Hi</span><br>
-          <span>We make</span>
+          <span>I make</span>
         </h2>
 
             <h1 class="display-3 font-weight-bold white--text">
@@ -46,7 +46,7 @@
         class="mb-5" 
         cols="12"
       >
-          <v-btn @click="logEvent()" class="white" route to="/software">View our Apps</v-btn>
+          <v-btn @click="logEvent()" class="white" route to="/software">View my Apps</v-btn>
       </v-col>
     </v-row>
 
