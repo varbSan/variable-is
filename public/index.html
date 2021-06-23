@@ -10,8 +10,16 @@
     <!-- <title><%= htmlWebpackPlugin.options.title %></title> --> 
     <title>Variable</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link id="googleFontRoboto" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" disabled>
+    <link id="materialDesignIcons" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css" disabled>
+
+    <script type="text/javascript"> // to make google fonts and materialdesignicons non-blocking on page load
+      window.onload = function()
+      {
+        document.getElementById('googleFontRoboto').removeAttribute('disabled');
+        document.getElementById('materialDesignIcons').removeAttribute('disabled');
+      }
+    </script>
   </head>
   <body>
     <noscript>
