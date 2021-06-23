@@ -33,6 +33,7 @@
               </p>
               <p class="text-center">
                 <v-btn class="white black--text mx-2" x-small target="_blank" href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl">Install</v-btn>
+                <v-btn class="white black--text mx-2" x-small route to="/overview/premium">Upgrade to Premium</v-btn>
                 <v-btn class="white black--text mx-2" x-small route to="/overview/privacypolicy">Privacy Policy</v-btn>
               </p>
               

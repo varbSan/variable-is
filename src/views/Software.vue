@@ -30,10 +30,8 @@
               </p>
               <p class="text-center">
                 <v-btn class="white black--text mx-2" x-small target="_blank" href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl">Install</v-btn>
-                <router-link to="/overview">
-                  <v-btn class="white black--text mx-2" x-small>More Info</v-btn>
-                </router-link>
-                
+                <v-btn class="white black--text mx-2" x-small route to="/overview">More Info</v-btn>
+          
               </p>
               
               

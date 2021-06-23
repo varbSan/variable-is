@@ -22,6 +22,12 @@ const routes = [
 
   },
   {
+    path: '/overview/premium',
+    name: 'OverviewPremium',
+    component: () => import(/* webpackChunkName: "about" */ '../views/OverviewPremium.vue')
+
+  },
+  {
     path: '/software',
     name: 'Software',
     // route level code-splitting
