@@ -38,7 +38,7 @@
             </div>
           </v-card>
         </v-col>
-        <!-- <v-col
+        <v-col
           cols="12" 
           sm="5"
         >
@@ -66,7 +66,7 @@
               </p>
             </div>
           </v-card>
-        </v-col> -->
+        </v-col>
       </v-row>
 
     </v-container>
