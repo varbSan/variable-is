@@ -89,7 +89,7 @@
                 <strong>A platform for windmill bounty hunters</strong>
               </h3>
               <p>
-                Find your bounty for the ultimate windmill hunting experience.
+                Find your bounty in our den and live the ultimate windmill hunting experience.
               </p>
               <p class="text-center">
                 <v-btn class="white black--text mx-2" x-small target="_blank" href="http://citizencult.com">Visit</v-btn>
