@@ -67,6 +67,36 @@
             </div>
           </v-card>
         </v-col>
+
+        <v-col
+          cols="12" 
+          sm="5"
+        >
+        <v-row justify="center">
+          <h1>
+            <v-btn text class="white--text x-large text-none" target="_blank" href="https://donquixote.land">
+              <span class="display-1">Don Quixote Land</span>   
+            </v-btn>
+          </h1>
+        </v-row>
+
+          <v-card dark color="rgba(0, 0, 0, 0.7)" flat>
+            <v-img :src="require('@/assets/ss_donquixote-land.png')">
+            </v-img>
+
+            <div class="pa-5">
+              <h3 class="text-center">
+                <strong>A platform for windmill bounty hunters</strong>
+              </h3>
+              <p>
+                Find your bounty for the ultimate windmill hunting experience.
+              </p>
+              <p class="text-center">
+                <v-btn class="white black--text mx-2" x-small target="_blank" href="http://citizencult.com">Visit</v-btn>
+              </p>
+            </div>
+          </v-card>
+        </v-col>
       </v-row>
 
     </v-container>
