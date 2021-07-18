@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Overview from '../components/Overview.vue'
+import OverviewPrivacyPolicy from '../components/OverviewPrivacyPolicy.vue'
 
 Vue.use(VueRouter)
 
@@ -13,12 +15,12 @@ const routes = [
   {
     path: '/overview',
     name: 'Overview',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Overview.vue')
+    component: Overview
   },
   {
     path: '/overview/privacypolicy',
     name: 'OverviewPrivacyPolicy',
-    component: () => import(/* webpackChunkName: "about" */ '../views/OverviewPrivacyPolicy.vue')
+    component: OverviewPrivacyPolicy
 
   },
   {
