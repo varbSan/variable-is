@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Overview from '../components/Overview.vue'
-import OverviewPrivacyPolicy from '../components/OverviewPrivacyPolicy.vue'
+import Software from '../views/Software.vue'
+import Overview from '../views/Overview.vue'
+import OverviewPremium from '../views/OverviewPremium.vue'
+import OverviewPrivacyPolicy from '../views/OverviewPrivacyPolicy.vue'
 
 Vue.use(VueRouter)
 
@@ -26,16 +28,13 @@ const routes = [
   {
     path: '/overview/premium',
     name: 'OverviewPremium',
-    component: () => import(/* webpackChunkName: "about" */ '../views/OverviewPremium.vue')
+    component: OverviewPremium
 
   },
   {
     path: '/software',
     name: 'Software',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Software.vue')
+    component: Software
   }
 ]
 

@@ -2,6 +2,35 @@
   <div class="Software">
     <v-container class="my-5">
       <v-row justify="center">
+                <v-col
+          cols="12" 
+          sm="5"
+        >
+        <v-row justify="center">
+          <h1>
+            <v-btn text class="white--text x-large text-none" target="_blank" href="https://breath-room.web.app">
+              <span class="display-1">Breath Room</span>   
+            </v-btn>
+          </h1>
+        </v-row>
+
+          <v-card dark color="rgba(0, 0, 0, 0.7)" flat>
+            <v-img :src="require('@/assets/ss_breath-room.png')">
+            </v-img>
+
+            <div class="pa-5">
+              <h3 class="text-center">
+                <strong>A space to breath and share</strong>
+              </h3>
+              <p>
+                Align your breath with millions humans around the globe. Share your thoughts, recharge and live.
+              </p>
+              <p class="text-center">
+                <v-btn class="white black--text mx-2" x-small target="_blank" href="https://breath-room.web.app">Breath</v-btn>
+              </p>
+            </div>
+          </v-card>
+        </v-col>
         <v-col
           cols="12" 
           sm="5"
@@ -19,7 +48,8 @@
 
           <v-card dark color="rgba(0, 0, 0, 0.7)" flat>
             <router-link to="/overview">
-              <v-img :src="require('@/assets/ss_overview.png')"></v-img>
+              <v-img :src="require('@/assets/ss_overview.png')">
+              </v-img>
             </router-link>
 
             <div class="pa-5">
