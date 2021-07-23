@@ -2,7 +2,7 @@
   <v-app style="
       backgroundImage: url('https://free4kwallpapers.com/uploads/originals/2018/08/24/brutalist-interior-wallpaper.jpg');
       backgroundPosition: center;
-      backgroundSize: cover;
+      background-size: cover;
     ">
     <AppBar/>
     <v-main >

@@ -56,7 +56,7 @@
               <h3 class="text-center">
                 <strong>A Chrome extension to set goals</strong>
               </h3>
-              <p>Make your new tab page display your goals — along with your Google Calendar events and tasks.<br>
+              <p>Make your browser homepage display your goals — along with your Google Calendar events and tasks.<br>
               </p>
               <p class="text-center">
                 <v-btn class="white black--text mx-2" x-small target="_blank" href="https://chrome.google.com/webstore/detail/overview/bnacpnpmhffilkifmaahoabkgpkblcnl">Install</v-btn>
